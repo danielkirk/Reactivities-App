@@ -1,0 +1,14 @@
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.BLL.deps.json
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.BLL.dll
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.BLL.pdb
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.Db.dll
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.Domain.dll
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.Domain.pdb
+D:\ReactApp2019\App.BLL\bin\Debug\netstandard2.0\App.Db.pdb
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.csprojAssemblyReference.cache
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.csproj.CoreCompileInputs.cache
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.AssemblyInfoInputs.cache
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.AssemblyInfo.cs
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.csproj.CopyComplete
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.dll
+D:\ReactApp2019\App.BLL\obj\Debug\netstandard2.0\App.BLL.pdb
