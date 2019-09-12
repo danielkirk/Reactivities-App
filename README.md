@@ -1,0 +1,1 @@
+# React-TypeScript-NetCore-App
