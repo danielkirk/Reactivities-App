@@ -4098,8 +4098,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "d:\\ReactApp2019\\App.Db\\App.Db.csproj": {
-              "projectPath": "d:\\ReactApp2019\\App.Db\\App.Db.csproj"
+            "D:\\ReactApp2019\\App.Db\\App.Db.csproj": {
+              "projectPath": "D:\\ReactApp2019\\App.Db\\App.Db.csproj"
             },
             "D:\\ReactApp2019\\App.Domain\\App.Domain.csproj": {
               "projectPath": "D:\\ReactApp2019\\App.Domain\\App.Domain.csproj"
