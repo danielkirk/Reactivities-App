@@ -10,6 +10,24 @@ namespace App.Db
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Value>()
+            .HasData(new Value
+            {
+                Id = 1,
+                Name = "Daniel"
+            }, new Value
+            {
+                Id = 2,
+                Name = "Katring"
+            }, new Value
+            {
+                Id = 3,
+                Name = "Nate"
+            });
+        }
         public DbSet<Value> Values { get; set; }
     }
 }
