@@ -26,11 +26,12 @@ namespace App.API
                 {
                     var context = services.GetRequiredService<DataContext>();
                     context.Database.Migrate();
+                    Seed.SeedData(context);
                 }
                 catch (Exception ex)
                 {
                     var logger = services.GetRequiredService<ILogger<Program>>();
-                    logger.LogError("An error ocurred during migration");
+                    logger.LogError(ex, "An error ocurred during migration");
                 }
             }
             host.Run();

@@ -4056,11 +4056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\ReactApp2019\\App.Db\\App.Db.csproj",
+      "projectUniqueName": "D:\\ReactApp2019\\App.Db\\App.Db.csproj",
       "projectName": "App.Db",
-      "projectPath": "d:\\ReactApp2019\\App.Db\\App.Db.csproj",
+      "projectPath": "D:\\ReactApp2019\\App.Db\\App.Db.csproj",
       "packagesPath": "C:\\Users\\imdan\\.nuget\\packages\\",
-      "outputPath": "d:\\ReactApp2019\\App.Db\\obj\\",
+      "outputPath": "D:\\ReactApp2019\\App.Db\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
