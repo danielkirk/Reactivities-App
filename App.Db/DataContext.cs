@@ -1,5 +1,4 @@
-﻿using System;
-using App.Domain;
+﻿using App.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace App.Db

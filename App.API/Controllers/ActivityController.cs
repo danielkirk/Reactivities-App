@@ -27,5 +27,17 @@ namespace App.API.Controllers
 
         [HttpPost]
         public async Task<ActionResult<Unit>> Create(Create.Command command) => await _mediator.Send(command);
+
+        [HttpPut]
+        [Route("{id}")]
+        public async Task<ActionResult<Unit>> Edit(Guid id, Edit.Command command)
+        {
+            command.Id = id;
+            return await _mediator.Send(command);
+        }
+
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<ActionResult<Unit>> Delete(Guid id, Delete.Command command) => await _mediator.Send(new Delete.Command { Id = id });
     }
 }

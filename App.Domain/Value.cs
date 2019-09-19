@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace App.Domain
 {
     public class Value
