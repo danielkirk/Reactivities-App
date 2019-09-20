@@ -11,11 +11,6 @@ const ActivityDashboard: React.FC<IProps> = ({ activities }) => {
   return (
     <Grid>
       <GridColumn width={10}>
-        {/* <List>
-          {activities.map(activity => (
-            <List.Item key={activity.id}>{activity.title}</List.Item>
-          ))}
-        </List> */}
         <ActivityList activities={activities} />
       </GridColumn>
     </Grid>
