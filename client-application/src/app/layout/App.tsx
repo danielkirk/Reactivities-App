@@ -21,9 +21,13 @@ const App = () => {
     });
   }, []);
 
+  const handleOpenCreateForm = () => {
+    setSelectedActivity(null);
+    setEditMode(true);
+  };
   return (
     <Fragment>
-      <NavBar />
+      <NavBar openCreateForm={handleOpenCreateForm} />
       <Container style={{ marginTop: "7em" }}>
         <ActivityDashboard
           activities={activities}
@@ -31,6 +35,7 @@ const App = () => {
           selectedActivity={selectedActivity}
           editMode={editMode}
           setEditMode={setEditMode}
+          setSelectedActivity={setSelectedActivity}
         ></ActivityDashboard>
       </Container>
     </Fragment>
